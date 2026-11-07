@@ -1,8 +1,9 @@
 ---
 plan: morning-digest
-status: ready
+status: done
 owner: rook
 opened: 2026-10-29
+closed: 2026-11-07
 ---
 
 # Morning digest
@@ -77,3 +78,17 @@ page again with `LANE_MARKER` unset (the banner reads "no marker set") and uploa
 link. Move this plan to `docs/plans/done/` with its issue list.
 
 Done when: the preview link no longer shows the lane marker.
+
+## Issues
+
+| # | Issue | Blocked by | Worker | Closed |
+|---|-------|-----------|--------|--------|
+| 1 | Run log reader + DigestRow types | — | cursor · composer · medium | 2026-11-07 |
+| 2 | Digest HTML page | #1 | cursor · composer · medium | 2026-11-07 |
+| 3 | Digest JSON API | #1 | cursor · composer · medium | 2026-11-07 |
+| 4 | Board link to digests | #1 | cursor · composer · medium | 2026-11-07 |
+| 5 | Digest route tests | #2, #3 | cursor · composer · medium | 2026-11-07 |
+| 6 | Preview for review | #2 | cursor · composer · medium | 2026-11-07 |
+| 7 | Clean up marker + archive plan | #6 | cursor · composer · medium | 2026-11-07 |
+
+Preview: https://dariusz-olas.github.io/mega-s01e04-before-i-looked/
