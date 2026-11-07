@@ -3,3 +3,7 @@ var/
 .env
 *.png
 .claude/skills
+
+.challenge-log/
+preview/
+
